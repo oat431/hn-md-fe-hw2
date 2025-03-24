@@ -15,11 +15,25 @@
     font-size: 20px;
 }
 
-.left-aside-box {
-    background-color: #27ae60;
-    display: inline-block;
-    align-items: center;
+
+.animal-display {
+    display: grid;
+    background-color: #000000;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 8px;
+}
+
+/* full height and space evently */
+.animal-box {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    background-color: #f1c40f;
+    color: white;
+    height: 25vh;
+    width: 15vw;
 }
 
 .header {

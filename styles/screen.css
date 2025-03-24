@@ -11,4 +11,13 @@
             "right-aside"
             "footer";
     }
+    .animal-display {
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+    }
+    .animal-box {
+        height: 5vh;
+        width: 33vw;
+    }
 }
