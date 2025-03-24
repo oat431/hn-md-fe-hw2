@@ -15,12 +15,19 @@
     font-size: 20px;
 }
 
+.left-aside-box {
+    background-color: #27ae60;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
 .header {
     grid-area: header;
     background-color: #f1c40f;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .left-aside {
@@ -44,7 +51,7 @@
     background-color: #e74c3c;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .main {
