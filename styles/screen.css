@@ -10,6 +10,8 @@
             "main"
             "right-aside"
             "footer";
+        padding: 0;
+        grid-gap: 0;
     }
     .animal-display {
         display: flex;
@@ -36,5 +38,31 @@
         height: auto;
         padding: 0;
         overflow: hidden;
+    }
+    .header, .footer {
+        border-radius: 0;
+        width: 100%;
+        padding: 10px;
+    }
+    .form {
+        padding: 10px;
+    }
+    .form-input {
+        padding: 1.5rem;
+    }
+    .input {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .ilabel {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .iform {
+        width: 100%;
+        margin-top: 0;
+    }
+    .main {
+        padding: 10px;
     }
 }

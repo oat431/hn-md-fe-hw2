@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="styles/screen.css" />
         <link rel="stylesheet" href="styles/text.css" />
         <link rel="stylesheet" href="styles/image.css" />
+        <link rel="stylesheet" href="styles/form.css" />
     </head>
     <body>
         <div class="container">
@@ -63,7 +64,34 @@
                     </div>
                 </div>
             </div>
-            <div class="main">Form</div>
+            <div class="main">
+                <div class="form">
+                    <form onsubmit="calculateBMI()" class="form-input">
+                        <h1>Form Question</h1>
+
+                        <label class="input ilabel" for="question"
+                            >Question:</label
+                        >
+                        <input
+                            class="input iform"
+                            id="question"
+                            type="text"
+                            step="any"
+                            placeholder="question"
+                        />
+
+                        <label class="input ilabel" for="email">Email:</label>
+                        <input
+                            class="input iform"
+                            id="email"
+                            type="email"
+                            placeholder="example@email.com"
+                        />
+
+                        <button class="input isubmit">Subcribe</button>
+                    </form>
+                </div>
+            </div>
             <div class="right-aside">
                 <img
                     class="animal-picture"
@@ -71,7 +99,7 @@
                     alt="animal"
                 />
             </div>
-            <div class="footer">Footer</div>
+            <div class="footer">copyright &copy; 2025 Sahachan Tippimwong</div>
         </div>
     </body>
 </html>

@@ -1,0 +1,59 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.form-input {
+    padding: 2rem;
+    border-radius: 2rem;
+    background: var(--container-background);
+    backdrop-filter: blur(10px);
+    box-shadow: var(--container-shadow);
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Styling input fields */
+.input {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.ilabel {
+    color: var(--text-color);
+    width: 100px;
+    flex-shrink: 0;
+}
+
+.iform {
+    color: var(--input-color);
+    flex: 1;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--border-color);
+}
+
+.isubmit {
+    color: var(--text-color);
+    background: var(--button-color);
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 100%;
+}
+
+.isubmit:hover {
+    background: var(--button-hover);
+}
