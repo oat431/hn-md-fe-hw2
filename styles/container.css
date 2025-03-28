@@ -18,7 +18,6 @@
 
 .animal-display {
     display: grid;
-    background-color: #000000;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 8px;
@@ -30,15 +29,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f1c40f;
     color: white;
-    height: 25vh;
     width: 15vw;
+    height: 25vh;
 }
 
 .header {
     grid-area: header;
-    background-color: #f1c40f;
+    border: 1px solid #ccc;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -46,7 +45,8 @@
 
 .left-aside {
     grid-area: left-aside;
-    background-color: #27ae60;
+    border: 1px solid #ccc;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,7 +54,8 @@
 
 .right-aside {
     grid-area: right-aside;
-    background-color: #f39c12;
+    border: 1px solid #ccc;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,7 +63,8 @@
 
 .banner {
     grid-area: banner;
-    background-color: #e74c3c;
+    border: 1px solid #ccc;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -70,19 +72,25 @@
 
 .main {
     grid-area: main;
-    background-color: #3498db;
+    border: 1px solid #ccc;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
     text-align: center;
 }
 
 .footer {
     grid-area: footer;
-    background-color: #2980b9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

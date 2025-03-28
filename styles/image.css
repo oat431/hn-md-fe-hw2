@@ -1,0 +1,27 @@
+.profile {
+    width: 5%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+
+.favorite {
+    height: 25vh;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.animal-picture {
+    width: 15vw;
+    object-fit: fill;
+}
+
